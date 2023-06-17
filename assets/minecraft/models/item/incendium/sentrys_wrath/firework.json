@@ -1,0 +1,6 @@
+{
+    "parent": "item/incendium/sentrys_wrath",
+    "textures": {
+        "layer0": "incendium/sentrys_wrath/firework"
+    }
+}

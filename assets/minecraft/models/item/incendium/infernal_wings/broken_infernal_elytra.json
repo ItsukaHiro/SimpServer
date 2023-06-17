@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "incendium/infernal_wings/broken_infernal_elytra"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/_parent_bowl",
+  "textures": {
+    "layer0": "minecraft:item/mushroom_stew",
+    "particle": "minecraft:item/transparent"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 90000
+      },
+      "model": "fokastudio:item/perm_buff/endurance_stew"
+    }
+  ]
+}

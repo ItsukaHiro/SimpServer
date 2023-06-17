@@ -1,0 +1,7 @@
+{
+  "parent": "item/holo_item/lamy_sake/sake",
+  "textures": {
+    "0": "holo_item/lamy_sake/sake",
+    "particle": "holo_item/lamy_sake/sake_item"
+  }
+}

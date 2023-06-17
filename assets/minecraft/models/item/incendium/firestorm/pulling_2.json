@@ -1,0 +1,6 @@
+{
+    "parent": "item/incendium/firestorm",
+    "textures": {
+        "layer0": "incendium/firestorm/pulling_2"
+    }
+}

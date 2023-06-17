@@ -1,0 +1,6 @@
+{
+    "parent": "item/incendium/patron/holy_wrath",
+    "textures": {
+        "layer0": "incendium/patron/holy_wrath/pulling_1"
+    }
+}

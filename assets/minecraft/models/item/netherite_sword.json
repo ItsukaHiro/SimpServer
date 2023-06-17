@@ -1,0 +1,104 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/custom_sword/normal_katana/netherite_katana"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "item/custom_sword/great_sword/netherite_great_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "item/holo_item/calli_scythe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "item/holo_item/kiara_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "item/holo_item/ayame_katana/asura"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "item/holo_item/ayame_katana/rakshasa"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "item/holo_item/iroha_katana"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "item/holo_item/fubuki_katana"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 90000
+      },
+      "model": "fokastudio:item/dragonblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 90001
+      },
+      "model": "fokastudio:item/shulker_tools/sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 90002
+      },
+      "model": "fokastudio:item/tamaris"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1450000
+      },
+      "model": "item/incendium/patron/daybreaker"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1450001
+      },
+      "model": "item/incendium/patron/witherblade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1450003
+      },
+      "model": "item/incendium/chilling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1450004
+      },
+      "model": "item/incendium/sacrifice"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1450005
+      },
+      "model": "item/incendium/vampire"
+    }
+  ]
+}

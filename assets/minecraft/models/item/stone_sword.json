@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stone_sword"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model":"item/custom_sword/normal_katana/stone_katana"},
+    {"predicate": {"custom_model_data":2}, "model":"item/custom_sword/great_sword/stone_great_sword"}
+  ]
+}

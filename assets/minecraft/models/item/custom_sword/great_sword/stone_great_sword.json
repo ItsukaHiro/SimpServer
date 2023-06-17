@@ -1,0 +1,6 @@
+{
+  "parent": "item/big_tool_generated",
+  "textures": {
+    "layer0": "custom_sword/great_sword/stone_great_sword"
+  }
+}

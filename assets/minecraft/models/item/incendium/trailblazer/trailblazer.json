@@ -1,0 +1,6 @@
+{
+    "parent": "item/incendium/trailblazer",
+    "textures": {
+        "layer0": "incendium/trailblazer"
+    }
+}

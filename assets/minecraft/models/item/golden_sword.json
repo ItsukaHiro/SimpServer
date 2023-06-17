@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/golden_sword"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data":       1}, "model": "item/custom_sword/normal_katana/golden_katana"},
+    {"predicate": {"custom_model_data":       2}, "model": "item/custom_sword/great_sword/golden_great_sword"},
+    {"predicate": {"custom_model_data": 1450007}, "model": "item/incendium/withersbane"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_pickaxe"
+  },
+  "overrides": [
+        {"predicate":{"custom_model_data": 1450500},"model": "item/incendium/hefty"}
+    ]
+}

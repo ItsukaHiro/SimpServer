@@ -1,0 +1,6 @@
+{
+    "parent": "item/incendium/ragnarok",
+    "textures": {
+        "layer0": "incendium/ragnarok/pulling_3"
+    }
+}

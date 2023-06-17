@@ -1,0 +1,6 @@
+{
+    "parent": "item/incendium/multiplex",
+    "textures": {
+        "layer0": "incendium/multiplex/pulling_2"
+    }
+}

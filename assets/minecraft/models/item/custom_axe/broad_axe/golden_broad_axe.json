@@ -1,0 +1,6 @@
+{
+  "parent": "item/big_tool_generated",
+  "textures": {
+    "layer0": "custom_axe/broad_axe/golden_broad_axe"
+  }
+}
