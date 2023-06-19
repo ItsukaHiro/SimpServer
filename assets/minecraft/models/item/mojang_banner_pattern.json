@@ -64,7 +64,7 @@
     {"predicate": {"custom_model_data":902}, "model":"item/weapons/uziaiming"},
     {"predicate": {"custom_model_data":903}, "model":"item/weapons/uzisprinting"},
 	
-	{"predicate": {"custom_model_data":999}, "model":"item/weapons/gunkit"},
+    {"predicate": {"custom_model_data":999}, "model":"item/weapons/gunkit"},
 
     {"predicate": {"custom_model_data":1001}, "model":"item/holo_item/ame_clock"},
     {"predicate": {"custom_model_data":1002}, "model":"item/holo_item/asacoco"},
@@ -73,6 +73,6 @@
     {"predicate": {"custom_model_data":1005}, "model":"item/holo_item/pekora_rpg/pekora_rpg"},
     {"predicate": {"custom_model_data":1006}, "model":"item/holo_item/pekora_rpg/pekora_rpg_aiming"},
     {"predicate": {"custom_model_data":1007}, "model":"item/holo_item/pekora_rpg/pekora_rpg_sprinting"},
-	{"predicate": {"custom_model_data":1008}, "model":"item/holo_item/lamy_sake/lamy_sake"}
+    {"predicate": {"custom_model_data":1008}, "model":"item/holo_item/lamy_sake/lamy_sake"}
   ]
 }
