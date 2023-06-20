@@ -773,5 +773,7 @@
   "incendium.inferno.spell.last.shulker":"Last: Shulker",
   "incendium.inferno.spell.last.prepare":"Last: Prepare",
   "incendium.inferno.spell.last.activate":"Last: Activate",
-  "incendium.inferno.spell.last.clear":"Last: Clear"
+  "incendium.inferno.spell.last.clear":"Last: Clear",
+
+  "kill.notification": "Bạn đã giết"
 }
