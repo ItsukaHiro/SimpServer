@@ -860,7 +860,7 @@
   "item.minecraft.ender_eye": "Ender Eye",
   "item.minecraft.quartz": "Quartz",
   "item.minecraft.redstone": "Redstone",
-  "item.minecraft.turtle_helmet": "Turtle Helmet"
+  "item.minecraft.turtle_helmet": "Turtle Helmet",
 
-}
+  "kill.notification": "You have killed"
 }
