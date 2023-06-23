@@ -1,1 +1,8 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"fokastudio:item/ancient_armor/boots","layer1":"fokastudio:item/ancient_armor/boots"}}
+{
+	"parent":"minecraft:item/generated",
+	"textures":
+	{
+		"layer0":"fokastudio:item/ancient_armor/boots",
+		"layer1":"fokastudio:item/ancient_armor/boots"
+	}
+}

@@ -858,5 +858,8 @@
   "item.minecraft.redstone": "Redstone",
   "item.minecraft.turtle_helmet": "Turtle Helmet",
 
-  "kill.notification": "You have killed"
+  "kill.notification": "You have killed",
+  "totem.left": "Number of Totem left:",
+  "totem.warning": "Be Careful!",
+  "totem.runout": "Caution! No Totem lefts! This is the last changes!"
 }

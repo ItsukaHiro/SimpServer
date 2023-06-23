@@ -775,5 +775,8 @@
   "incendium.inferno.spell.last.activate":"Last: Activate",
   "incendium.inferno.spell.last.clear":"Last: Clear",
 
-  "kill.notification": "Bạn đã giết"
+  "kill.notification": "Bạn đã giết",
+  "totem.left": "Số Totem còn lại:",
+  "totem.warning": "Cẩn thận!",
+  "totem.runout": "Cảnh báo! Không còn Totem nữa! Đây là cơ hội cuối rồi!"
 }
