@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/mojang_banner_pattern"
+  },
+  "overrides": [
+
+    {"predicate": {"custom_model_data":101}, "model":"item/weapons/ak47"},
+    {"predicate": {"custom_model_data":102}, "model":"item/weapons/ak47aiming"},
+    {"predicate": {"custom_model_data":103}, "model":"item/weapons/ak47sprinting"},
+
+    {"predicate": {"custom_model_data":111}, "model":"item/weapons/aug"},
+    {"predicate": {"custom_model_data":112}, "model":"item/weapons/augaiming"},
+    {"predicate": {"custom_model_data":113}, "model":"item/weapons/augsprinting"},
+
+    {"predicate": {"custom_model_data":121}, "model":"item/weapons/famasg2"},
+    {"predicate": {"custom_model_data":122}, "model":"item/weapons/famasg2aiming"},
+    {"predicate": {"custom_model_data":123}, "model":"item/weapons/famasg2sprinting"},
+    {"predicate": {"custom_model_data":124}, "model":"item/weapons/famasg2reloading"},
+
+    {"predicate": {"custom_model_data":131}, "model":"item/weapons/fnfal"},
+    {"predicate": {"custom_model_data":132}, "model":"item/weapons/fnfalaiming"},
+    {"predicate": {"custom_model_data":133}, "model":"item/weapons/fnfalsprinting"},
+
+    {"predicate": {"custom_model_data":141}, "model":"item/weapons/m4a1"},
+    {"predicate": {"custom_model_data":142}, "model":"item/weapons/m4a1aiming"},
+    {"predicate": {"custom_model_data":143}, "model":"item/weapons/m4a1sprinting"},
+
+    {"predicate": {"custom_model_data":201}, "model":"item/weapons/mg34"},
+    {"predicate": {"custom_model_data":202}, "model":"item/weapons/mg34aiming"},
+    {"predicate": {"custom_model_data":203}, "model":"item/weapons/mg34sprinting"},
+
+    {"predicate": {"custom_model_data":301}, "model":"item/weapons/kar98k"},
+    {"predicate": {"custom_model_data":302}, "model":"item/weapons/kar98kaiming"},
+    {"predicate": {"custom_model_data":303}, "model":"item/weapons/kar98ksprinting"},
+
+    {"predicate": {"custom_model_data":401}, "model":"item/weapons/combatknife"},
+
+    {"predicate": {"custom_model_data":501}, "model":"item/weapons/coltpython"},
+    {"predicate": {"custom_model_data":502}, "model":"item/weapons/coltpythonaiming"},
+    {"predicate": {"custom_model_data":503}, "model":"item/weapons/coltpythonsprinting"},
+
+    {"predicate": {"custom_model_data":511}, "model":"item/weapons/deserteagle"},
+    {"predicate": {"custom_model_data":512}, "model":"item/weapons/deserteagleaiming"},
+    {"predicate": {"custom_model_data":513}, "model":"item/weapons/deserteaglesprinting"},
+
+    {"predicate": {"custom_model_data":601}, "model":"item/weapons/rpg7"},
+    {"predicate": {"custom_model_data":602}, "model":"item/weapons/rpg7aiming"},
+    {"predicate": {"custom_model_data":603}, "model":"item/weapons/rpg7sprinting"},
+
+    {"predicate": {"custom_model_data":701}, "model":"item/weapons/dp12"},
+    {"predicate": {"custom_model_data":702}, "model":"item/weapons/dp12aiming"},
+    {"predicate": {"custom_model_data":703}, "model":"item/weapons/dp12sprinting"},
+
+    {"predicate": {"custom_model_data":711}, "model":"item/weapons/origin12"},
+    {"predicate": {"custom_model_data":712}, "model":"item/weapons/origin12aiming"},
+    {"predicate": {"custom_model_data":713}, "model":"item/weapons/origin12sprinting"},
+
+    {"predicate": {"custom_model_data":801}, "model":"item/weapons/ax50"},
+    {"predicate": {"custom_model_data":802}, "model":"item/weapons/reticle_pmii"},
+    {"predicate": {"custom_model_data":803}, "model":"item/weapons/ax50sprinting"},
+
+    {"predicate": {"custom_model_data":901}, "model":"item/weapons/uzi"},
+    {"predicate": {"custom_model_data":902}, "model":"item/weapons/uziaiming"},
+    {"predicate": {"custom_model_data":903}, "model":"item/weapons/uzisprinting"},
+	
+    {"predicate": {"custom_model_data":999}, "model":"item/weapons/gunkit"},
+
+    {"predicate": {"custom_model_data":1001}, "model":"item/holo_item/ame_clock"},
+    {"predicate": {"custom_model_data":1002}, "model":"item/holo_item/asacoco"},
+    {"predicate": {"custom_model_data":1003}, "model":"item/holo_item/korone_boxing"},
+    {"predicate": {"custom_model_data":1004}, "model":"item/holo_item/ina_book"},
+    {"predicate": {"custom_model_data":1005}, "model":"item/holo_item/pekora_rpg/pekora_rpg"},
+    {"predicate": {"custom_model_data":1006}, "model":"item/holo_item/pekora_rpg/pekora_rpg_aiming"},
+    {"predicate": {"custom_model_data":1007}, "model":"item/holo_item/pekora_rpg/pekora_rpg_sprinting"},
+    {"predicate": {"custom_model_data":1008}, "model":"item/holo_item/lamy_sake/lamy_sake"}
+  ]
+}

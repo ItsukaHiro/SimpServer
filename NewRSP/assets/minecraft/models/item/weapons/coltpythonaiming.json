@@ -1,0 +1,16 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/weapons/coltpython",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [-0.2, -90, 0],
+			"translation": [-8.96, 5.3, -6.75],
+			"scale": [2, 3, 3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [-9, 4.8, -13.25],
+			"scale": [2, 3, 3]
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/weapons/rpg7",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [-7.46, 1.6, 3],
+			"scale": [2, 3, 3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [-10.48, 1.6, 3],
+			"scale": [2, 3, 3]
+		}
+	}
+}

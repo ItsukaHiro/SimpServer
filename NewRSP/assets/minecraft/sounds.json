@@ -1,0 +1,131 @@
+{
+  "fx.ricochet": {
+    "category": "master",
+    "sounds": [ "fx/bowhit1", "fx/bowhit2", "fx/bowhit3", "fx/bowhit4" ]
+  },
+  "fx.whiz": {
+    "category": "master",
+    "sounds": [
+      {
+				"name": "fx/whiz1",
+				"weight": 4
+			},
+      {
+				"name": "fx/whiz2",
+				"weight": 1
+			},
+      {
+				"name": "fx/whiz3",
+				"weight": 2
+			}
+    ]
+  },
+  "explosion.frag": {
+    "category": "master",
+	  "sounds": [ "explosion/frag" ]
+  },
+  "explosion.flashbang": {
+    "category": "master",
+    "sounds": [
+      "explosion/flash"
+    ]
+  },
+  "explosion.flashring": {
+    "category": "master",
+    "sounds": [
+      "explosion/ring"
+    ]
+  },
+  "reload.start.light": {
+    "category": "master",
+	  "sounds": [ "reload/eject_mag_light" ]
+  },
+  "reload.end.light": {
+    "category": "master",
+	  "sounds": [ "reload/insert_mag_light" ]
+  },
+  "reload.start.normal": {
+    "category": "master",
+	  "sounds": [ "reload/eject_mag_normal" ]
+  },
+  "reload.end.normal": {
+    "category": "master",
+	  "sounds": [ "reload/insert_mag_normal" ]
+  },
+  "reload.start.heavy": {
+    "category": "master",
+	  "sounds": [ "reload/eject_mag_minigun" ]
+  },
+  "reload.end.heavy": {
+    "category": "master",
+	  "sounds": [ "reload/insert_mag_minigun" ]
+  },
+  "reload.start.shotgun": {
+    "category": "master",
+	  "sounds": [ "reload/insert_shotgun_shells" ]
+  },
+  "scope.in": {
+    "category": "master",
+	  "sounds": [ "scope/start_scope" ]
+  },
+  "scope.out": {
+    "category": "master",
+	  "sounds": [ "scope/end_scope" ]
+  },
+  "shoot.50gs": {
+    "category": "master",
+	  "sounds": [ "shoot/50gs" ]
+  },
+  "shoot.357magnum": {
+    "category": "master",
+	  "sounds": [ "shoot/357magnum" ]
+  },
+  "shoot.ak47": {
+    "category": "master",
+	  "sounds": [ "shoot/ak47" ]
+  },
+  "shoot.aug": {
+    "category": "master",
+	  "sounds": [ "shoot/aug" ]
+  },
+  "shoot.ax50": {
+    "category": "master",
+	  "sounds": [ "shoot/ax50" ]
+  },
+  "shoot.fnfal": {
+    "category": "master",
+	  "sounds": [ "shoot/fnfal" ]
+  },
+  "shoot.fr556": {
+    "category": "master",
+	  "sounds": [ "shoot/fr556" ]
+  },
+  "shoot.kar98k": {
+    "category": "master",
+	  "sounds": [ "shoot/kar98k" ]
+  },
+  "shoot.m4a1": {
+    "category": "master",
+	  "sounds": [ "shoot/m4a1" ]
+  },
+  "shoot.mg34": {
+    "category": "master",
+	  "sounds": [ "shoot/mg34" ]
+  },
+  "shoot.origin12": {
+    "category": "master",
+	  "sounds": [ "shoot/origin12" ]
+  },
+  "shoot.r90": {
+    "category": "master",
+	  "sounds": [ "shoot/r90shotgun" ]
+  },
+  "shoot.rpg7": {
+    "category": "master",
+	  "sounds": [ "shoot/rpg7" ]
+  },
+  "shoot.uzi": {
+    "category": "master",
+	  "sounds": [ "shoot/uzi" ]
+  }
+}

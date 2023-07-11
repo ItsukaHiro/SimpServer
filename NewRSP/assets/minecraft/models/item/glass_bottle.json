@@ -1,0 +1,138 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/potion",
+		"particle": "item/potion"
+	},
+	"elements": [
+		{
+			"from": [6, -4.2, 6],
+			"to": [10, 12.6, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 8, 14]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 7], "texture": "#0"},
+				"east": {"uv": [0, 0, 2.5, 7], "texture": "#0"},
+				"south": {"uv": [0, 0, 2.5, 7], "texture": "#0"},
+				"west": {"uv": [0, 0, 2.5, 7], "texture": "#0"},
+				"up": {"uv": [2.5, 11, 0, 8.5], "texture": "#0"},
+				"down": {"uv": [0, 8.5, 2.5, 11], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.46, -5.068, 6.46],
+			"to": [9.54, -4.132, 9.54],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.4, 8]},
+			"faces": {
+				"north": {"uv": [0, 6, 2.5, 7], "texture": "#0"},
+				"east": {"uv": [0, 6, 2.5, 7], "texture": "#0"},
+				"south": {"uv": [0, 6, 2.5, 7], "texture": "#0"},
+				"west": {"uv": [0, 6, 2.5, 7], "texture": "#0"},
+				"up": {"uv": [2.5, 14, 0, 11.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 8.5, 2.5, 11], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.768, -5.7744, 6.768],
+			"to": [9.232, -5.0256, 9.232],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -0.6, 8]},
+			"faces": {
+				"north": {"uv": [0, 10, 2.5, 11], "texture": "#0"},
+				"east": {"uv": [0, 10, 2.5, 11], "texture": "#0"},
+				"south": {"uv": [0, 10, 2.5, 11], "texture": "#0"},
+				"west": {"uv": [0, 10, 2.5, 11], "texture": "#0"},
+				"up": {"uv": [2.5, 14, 0, 11.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 8.5, 2.5, 11], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.35, 12.25, 6.35],
+			"to": [9.65, 13.55, 9.65],
+			"rotation": {"angle": 0, "axis": "y", "origin": [17, 20.25, 14]},
+			"faces": {
+				"north": {"uv": [3, 1.5, 5, 2], "texture": "#0"},
+				"east": {"uv": [3, 1.5, 5, 2], "texture": "#0"},
+				"south": {"uv": [3, 1.5, 5, 2], "texture": "#0"},
+				"west": {"uv": [3, 1.5, 5, 2], "texture": "#0"},
+				"up": {"uv": [3, 0, 5, 2], "texture": "#0"},
+				"down": {"uv": [4, 4.5, 6, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.88, 7.38, 5.88],
+			"to": [10.12, 9.42, 10.12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15.2, 17.98, 12.8]},
+			"faces": {
+				"north": {"uv": [5, 9, 4.5, 9.5], "texture": "#0"},
+				"east": {"uv": [5, 9, 4.5, 9.5], "texture": "#0"},
+				"south": {"uv": [5, 9, 4.5, 9.5], "texture": "#0"},
+				"west": {"uv": [5, 9, 4.5, 9.5], "texture": "#0"},
+				"up": {"uv": [7.5, 5.5, 7, 6], "texture": "#0"},
+				"down": {"uv": [7.5, 5.5, 7, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.49, 5.96515, 5.58848],
+			"to": [5.85, 10.76515, 10.38848],
+			"rotation": {"angle": 0, "axis": "x", "origin": [6.45, 7.16515, 1.26848]},
+			"faces": {
+				"north": {"uv": [9.5, 0, 9.5, 2], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [10, 0, 16, 5.5], "texture": "#0"},
+				"south": {"uv": [9.5, 0, 9.5, 2], "texture": "#0"},
+				"west": {"uv": [10, 0, 16, 5.5], "texture": "#0"},
+				"up": {"uv": [9.5, 0, 9.5, 2], "texture": "#0"},
+				"down": {"uv": [9.5, 0, 9.5, 2], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0.5, 1.5, 1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0.5, 1.5, 1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-24.4, 8.36, 1.16],
+			"translation": [0.5, 4.5, 1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-24.4, 8.36, 1.16],
+			"translation": [0.5, 4.5, 1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"rotation": [-45, 0, 0],
+			"translation": [0, 7.25, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"rotation": [-90, 45, 90],
+			"translation": [-3, 3, 0],
+			"scale": [1.05, 1.05, 1.05]
+		},
+		"head": {
+			"translation": [0, 12.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"fixed": {
+			"rotation": [-90, -45, -90],
+			"translation": [2.75, 2.25, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "potion",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [0, 1, 2, 3, 4]
+		},
+		5
+	]
+}
