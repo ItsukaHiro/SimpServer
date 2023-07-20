@@ -1,0 +1,4 @@
+Color:
+01 - Hollow Armor
+02 - Ancient Armor
+03 - Shulker Armor
