@@ -31,8 +31,9 @@ jobs:
         
       - name: Get tag name from ref
         shell: bash
-        run: echo "::set-output name=tag::${{ github.event.repository.updated_at}}"
+        run: echo "${{ github.event.repository.updated_at}} | sed 's/:/./g'" >> $GITHUB_OUTPUT
         id: get_tag
+        
       - name: Create tag in public repository
         run: |
           cd ${{github.workspace}}
