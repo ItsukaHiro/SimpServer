@@ -46,16 +46,14 @@ jobs:
         id: create_release
         with:
           draft: false
-          prerelease: false
+          prerelease: true
           release_name: Build-${{ steps.get_tag.outputs.tag }}
           tag_name: ${{ steps.get_tag.outputs.tag }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
           
-      - uses: MCJack123/ghaction-generate-release-hashes@v3
-        with:
-          hash-type: sha1
-          file-name: hashes.txt
+      - name: Create Hash File (SHA1)
+        run: certutil -hashfile RSP.zip SHA1 | Out-File hashes.txt
           
       - name: Uploade Resource Pack
         uses: actions/upload-release-asset@main
