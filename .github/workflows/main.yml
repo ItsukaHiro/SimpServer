@@ -36,7 +36,7 @@ jobs:
           draft: false
           prerelease: true
           release_name: Build-${{ github.event.repository.updated_at}}
-          tag_name: nighty-build
+          tag_name: nighty-build--${{ github.event.repository.updated_at}}
         env:
           GITHUB_TOKEN: ${{ github.token }}
           
