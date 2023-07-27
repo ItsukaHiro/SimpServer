@@ -29,14 +29,19 @@ jobs:
       - name: Build RSP
         run: 7z\7za.exe a -mx9 -tzip -aoa RSP.zip assets\* credit.txt pack.mcmeta pack.png README.md
       
+      - name: "Set current date as env variable"
+        run: |
+          echo "builddate=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+        id: version  # this is used on variable path
+        
       - name: Create Release
         uses: actions/create-release@v1
         id: create_release
         with:
           draft: false
           prerelease: true
-          release_name: Build-${{ steps.date.outputs.date }}
-          tag_name: nighty-build
+          release_name: Build-${{ steps.version.outputs.builddate }}
+          tag_name: nighty-build-${{ steps.version.outputs.builddate }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
           
