@@ -28,8 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: 7z\7za.exe a -mx9 -tzip -aoa file.zip assets\* credit.txt pack.mcmeta pack.png README.md
-      - name: Upload assets to GitHub
-        uses: AButler/upload-release-assets@v2.0
+      - uses: actions/upload-artifact@v3
         with:
-          files: '/'
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          name: my-artifact
+          path: bin/*
