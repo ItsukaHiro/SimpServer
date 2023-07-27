@@ -19,11 +19,12 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: windows-latest
+    
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@main
 
       # Runs a single command using the runners shell
       - name: Build RSP
@@ -31,7 +32,7 @@ jobs:
         
       - name: Get tag name from ref
         shell: bash
-        run: echo "${{ github.event.repository.updated_at}} | sed 's/:/./g'" >> $GITHUB_OUTPUT
+        run: echo "$(date +'%Y-%m-%dT%-%M-%S')" >> $GITHUB_OUTPUT
         id: get_tag
         
       - name: Create tag in public repository
