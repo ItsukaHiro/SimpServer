@@ -29,16 +29,6 @@ jobs:
       - name: Build RSP
         run: 7z\7za.exe a -mx9 -tzip -aoa RSP.zip assets\* credit.txt pack.mcmeta pack.png README.md
       
-      - shell: bash
-        run: echo "::set-output name=tag::{{ steps.date.outputs.date }}"
-        id: get_tag
-      
-      - name: Create tag in public repository
-        run: |
-          cd ${{github.workspace}}
-          git tag ${{ steps.get_tag.outputs.tag }}
-          git push --tags --porcelain
-      
       - name: Create Release
         uses: actions/create-release@v1
         id: create_release
@@ -46,7 +36,7 @@ jobs:
           draft: false
           prerelease: true
           release_name: Build-${{ steps.date.outputs.date }}
-          tag_name: ${{ steps.get_tag.outputs.tag }}
+          tag_name: nighty-build
         env:
           GITHUB_TOKEN: ${{ github.token }}
           
