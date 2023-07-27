@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: \7z\7za.exe a -mx9 -tzip file.zip assets\* credit.txt pack.mcmeta pack.png README.md
+        run: 7z\7za.exe a -mx9 -tzip file.zip assets\* credit.txt pack.mcmeta pack.png README.md
