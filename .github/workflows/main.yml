@@ -28,6 +28,16 @@ jobs:
       # Runs a single command using the runners shell
       - name: Build RSP
         run: 7z\7za.exe a -mx9 -tzip -aoa RSP.zip assets\* credit.txt pack.mcmeta pack.png README.md
+      
+      - name: Uploade Resource Pack
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./RSP.zip
+          asset_name: RSP.zip
+          asset_content_type: application/zip
       - name: Release
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
@@ -35,5 +45,4 @@ jobs:
           automatic_release_tag: "latest"
           prerelease: true
           title: "Development Build"
-          files: |
-            RSP.zip
+          files: RSP.zip
