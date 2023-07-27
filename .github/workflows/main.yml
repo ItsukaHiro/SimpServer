@@ -29,6 +29,12 @@ jobs:
       - name: Build RSP
         run: 7z\7za.exe a -mx9 -tzip -aoa RSP.zip assets\* credit.txt pack.mcmeta pack.png README.md
         
+      - name: Create tag in public repository
+        run: |
+          cd ${{github.workspace}}
+          git tag nighty-build-${{ github.event.repository.updated_at}}
+          git push --tags --porcelain
+          
       - name: Create Release
         uses: actions/create-release@v1
         id: create_release
@@ -36,7 +42,7 @@ jobs:
           draft: false
           prerelease: true
           release_name: Build-${{ github.event.repository.updated_at}}
-          tag_name: nighty-build--${{ github.event.repository.updated_at}}
+          tag_name: nighty-build-${{ github.event.repository.updated_at}}
         env:
           GITHUB_TOKEN: ${{ github.token }}
           
