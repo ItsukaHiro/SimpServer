@@ -42,7 +42,7 @@ jobs:
           draft: false
           prerelease: true
           release_name: Build-${{ steps.date.outputs.date }}
-          tag_name: ${{ steps.date.outputs.date }}
+          tag_name: build-${{ steps.date.outputs.date }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
           
