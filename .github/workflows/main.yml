@@ -42,18 +42,18 @@ jobs:
           git push --tags --porcelain
           
       - name: Create Release
-        uses: actions/create-release@v1
+        uses: actions/create-release@main
         id: create_release
         with:
           draft: false
           prerelease: true
-          release_name: Build-${{ github.event.repository.updated_at}}
+          release_name: Build-${{ steps.get_tag.outputs.tag }}
           tag_name: ${{ steps.get_tag.outputs.tag }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
           
       - name: Uploade Resource Pack
-        uses: actions/upload-release-asset@v1
+        uses: actions/upload-release-asset@main
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
