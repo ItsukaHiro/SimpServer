@@ -1,0 +1,533 @@
+{
+  "ambient.weather.rain": {
+    "category": "weather",
+    "sounds": [
+      "ambient/weather/rain1",
+      "ambient/weather/rain2",
+      "ambient/weather/rain3"
+    ]
+  },
+  "ambient.weather.thunder": {
+    "category": "weather",
+    "sounds": [
+      "ambient/weather/thunder1",
+      "ambient/weather/thunder2",
+      "ambient/weather/thunder3",
+	  "ambient/weather/thunder4",
+	  "ambient/weather/thunder5",
+        "ambient/weather/thunder6"
+    ]
+  },
+  "fx.ricochet": {
+    "category": "master",
+    "sounds": [
+      "fx/bowhit1",
+      "fx/bowhit2",
+      "fx/bowhit3",
+      "fx/bowhit4"
+    ]
+  },
+  "fx.whiz": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "fx/whiz1",
+        "weight": 4
+      },
+      {
+        "name": "fx/whiz2",
+        "weight": 1
+      },
+      {
+        "name": "fx/whiz3",
+        "weight": 2
+      }
+    ]
+  },
+  "explosion.frag": {
+    "category": "master",
+    "sounds": [
+      "explosion/frag"
+    ]
+  },
+  "explosion.flashbang": {
+    "category": "master",
+    "sounds": [
+      "explosion/flash"
+    ]
+  },
+  "explosion.flashring": {
+    "category": "master",
+    "sounds": [
+      "explosion/ring"
+    ]
+  },
+  "reload.start.light": {
+    "category": "master",
+    "sounds": [
+      "reload/eject_mag_light"
+    ]
+  },
+  "reload.end.light": {
+    "category": "master",
+    "sounds": [
+      "reload/insert_mag_light"
+    ]
+  },
+  "reload.start.normal": {
+    "category": "master",
+    "sounds": [
+      "reload/eject_mag_normal"
+    ]
+  },
+  "reload.end.normal": {
+    "category": "master",
+    "sounds": [
+      "reload/insert_mag_normal"
+    ]
+  },
+  "reload.start.heavy": {
+    "category": "master",
+    "sounds": [
+      "reload/eject_mag_minigun"
+    ]
+  },
+  "reload.end.heavy": {
+    "category": "master",
+    "sounds": [
+      "reload/insert_mag_minigun"
+    ]
+  },
+  "reload.start.shotgun": {
+    "category": "master",
+    "sounds": [
+      "reload/insert_shotgun_shells"
+    ]
+  },
+  "scope.in": {
+    "category": "master",
+    "sounds": [
+      "scope/start_scope"
+    ]
+  },
+  "scope.out": {
+    "category": "master",
+    "sounds": [
+      "scope/end_scope"
+    ]
+  },
+  "shoot.50gs": {
+    "category": "master",
+    "sounds": [
+      "shoot/50gs"
+    ]
+  },
+  "shoot.357magnum": {
+    "category": "master",
+    "sounds": [
+      "shoot/357magnum"
+    ]
+  },
+  "shoot.ak47": {
+    "category": "master",
+    "sounds": [
+      "shoot/ak47"
+    ]
+  },
+  "shoot.aug": {
+    "category": "master",
+    "sounds": [
+      "shoot/aug"
+    ]
+  },
+  "shoot.ax50": {
+    "category": "master",
+    "sounds": [
+      "shoot/ax50"
+    ]
+  },
+  "shoot.fnfal": {
+    "category": "master",
+    "sounds": [
+      "shoot/fnfal"
+    ]
+  },
+  "shoot.fr556": {
+    "category": "master",
+    "sounds": [
+      "shoot/fr556"
+    ]
+  },
+  "shoot.kar98k": {
+    "category": "master",
+    "sounds": [
+      "shoot/kar98k"
+    ]
+  },
+  "shoot.m4a1": {
+    "category": "master",
+    "sounds": [
+      "shoot/m4a1"
+    ]
+  },
+  "shoot.mg34": {
+    "category": "master",
+    "sounds": [
+      "shoot/mg34"
+    ]
+  },
+  "shoot.origin12": {
+    "category": "master",
+    "sounds": [
+      "shoot/origin12"
+    ]
+  },
+  "shoot.r90": {
+    "category": "master",
+    "sounds": [
+      "shoot/r90shotgun"
+    ]
+  },
+  "shoot.rpg7": {
+    "category": "master",
+    "sounds": [
+      "shoot/rpg7"
+    ]
+  },
+  "shoot.uzi": {
+    "category": "master",
+    "sounds": [
+      "shoot/uzi"
+    ]
+  },
+  "sniff": {
+    "category": "master",
+    "sounds": [
+      "sniff"
+    ]
+  },
+  "entity.enderman.ambient": {
+    "sounds": [
+      "mob/endermen/idle1",
+      "mob/endermen/idle2",
+      "mob/endermen/idle3",
+      "mob/endermen/idle4",
+      "mob/endermen/idle5"
+    ],
+    "subtitle": "subtitles.entity.enderman.ambient",
+    "replace": true
+  },
+  "entity.enderman.death": {
+    "sounds": [
+      "mob/endermen/death"
+    ],
+    "subtitle": "subtitles.entity.enderman.death",
+    "replace": true
+  },
+  "entity.enderman.hurt": {
+    "sounds": [
+      "mob/endermen/hit1",
+      "mob/endermen/hit2",
+      "mob/endermen/hit3",
+      "mob/endermen/hit4"
+    ],
+    "subtitle": "subtitles.entity.enderman.hurt",
+    "replace": true
+  },
+  "entity.enderman.scream": {
+    "sounds": [
+      "mob/endermen/scream1",
+      "mob/endermen/scream2",
+      "mob/endermen/scream3",
+      "mob/endermen/scream4"
+    ],
+    "subtitle": "subtitles.entity.enderman.ambient",
+    "replace": true
+  },
+  "entity.enderman.stare": {
+    "sounds": [
+      "fokastudio:mob/enderman/stare_1",
+      "fokastudio:mob/enderman/stare_2"
+    ],
+    "subtitle": "subtitles.entity.enderman.stare",
+    "replace": true
+  },
+  "entity.enderman.teleport": {
+    "sounds": [
+      "fokastudio:mob/enderman/teleport_1",
+      "fokastudio:mob/enderman/teleport_2",
+      "fokastudio:mob/enderman/teleport_3",
+      "fokastudio:mob/enderman/teleport_4",
+      "fokastudio:mob/enderman/teleport_5",
+      "fokastudio:mob/enderman/teleport_6",
+      "fokastudio:mob/enderman/teleport_7",
+      "fokastudio:mob/enderman/teleport_8"
+    ],
+    "subtitle": "subtitles.entity.enderman.teleport",
+    "replace": true
+  },
+  "entity.endermite.ambient": {
+    "sounds": [
+      "fokastudio:mob/endermite/idle_1",
+      "fokastudio:mob/endermite/idle_2",
+      "fokastudio:mob/endermite/idle_3"
+    ],
+    "subtitle": "subtitles.entity.endermite.ambient",
+    "replace": true
+  },
+  "entity.endermite.death": {
+    "sounds": [
+      "fokastudio:mob/endermite/death_1",
+      "fokastudio:mob/endermite/death_2"
+    ],
+    "subtitle": "subtitles.entity.endermite.death",
+    "replace": true
+  },
+  "entity.endermite.hurt": {
+    "sounds": [
+      "fokastudio:mob/endermite/hurt_1",
+      "fokastudio:mob/endermite/hurt_2",
+      "fokastudio:mob/endermite/hurt_3"
+    ],
+    "subtitle": "subtitles.entity.endermite.hurt",
+    "replace": true
+  },
+  "entity.shulker.ambient": {
+    "sounds": [
+      {
+        "name": "fokastudio:mob/shulker/idle_1",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/idle_2",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/idle_3",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/idle_4",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/idle_5",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/idle_6",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/idle_7",
+        "volume": 0.42
+      }
+    ],
+    "subtitle": "subtitles.entity.shulker.ambient",
+    "replace": true
+  },
+  "entity.shulker.close": {
+    "sounds": [
+      {
+        "name": "fokastudio:mob/shulker/close_1",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/close_2",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/close_3",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/close_4",
+        "volume": 0.42
+      }
+    ],
+    "subtitle": "subtitles.entity.shulker.close",
+    "replace": true
+  },
+  "entity.shulker.death": {
+    "sounds": [
+      {
+        "name": "fokastudio:mob/shulker/death_1",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/death_2",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/death_3",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/death_4",
+        "volume": 0.42
+      }
+    ],
+    "subtitle": "subtitles.entity.shulker.death",
+    "replace": true
+  },
+  "entity.shulker.hurt": {
+    "sounds": [
+      {
+        "name": "fokastudio:mob/shulker/hurt_open_1",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/hurt_open_2",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/hurt_open_3",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/hurt_open_4",
+        "volume": 0.42
+      }
+    ],
+    "subtitle": "subtitles.entity.shulker.hurt",
+    "replace": true
+  },
+  "entity.shulker.hurt_closed": {
+    "sounds": [
+      {
+        "name": "fokastudio:mob/shulker/hurt_closed_1",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/hurt_closed_2",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/hurt_closed_3",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/hurt_closed_4",
+        "volume": 0.42
+      }
+    ],
+    "subtitle": "subtitles.entity.shulker.hurt",
+    "replace": true
+  },
+  "entity.shulker.open": {
+    "sounds": [
+      {
+        "name": "fokastudio:mob/shulker/open_1",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/open_2",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/open_3",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/open_4",
+        "volume": 0.42
+      }
+    ],
+    "subtitle": "subtitles.entity.shulker.open",
+    "replace": true
+  },
+  "entity.shulker.shoot": {
+    "sounds": [
+      {
+        "name": "fokastudio:mob/shulker/shoot_1",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/shoot_2",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/shoot_3",
+        "volume": 0.42
+      },
+      {
+        "name": "fokastudio:mob/shulker/shoot_4",
+        "volume": 0.42
+      }
+    ],
+    "subtitle": "subtitles.entity.shulker.shoot",
+    "replace": true
+  },
+  "entity.shulker.teleport": {
+    "sounds": [
+      "mob/endermen/portal",
+      "mob/endermen/portal2"
+    ],
+    "subtitle": "subtitles.entity.shulker.teleport",
+    "replace": true
+  },
+  "entity.shulker_bullet.hit": {
+    "sounds": [
+      "fokastudio:mob/shulker_bullet/hit_1",
+      "fokastudio:mob/shulker_bullet/hit_2",
+      "fokastudio:mob/shulker_bullet/hit_3",
+      "fokastudio:mob/shulker_bullet/hit_4"
+    ],
+    "subtitle": "subtitles.entity.shulker_bullet.hit",
+    "replace": true
+  },
+  "entity.shulker_bullet.hurt": {
+    "sounds": [
+      "entity/shulker_bullet/hit1",
+      "entity/shulker_bullet/hit2",
+      "entity/shulker_bullet/hit3",
+      "entity/shulker_bullet/hit4"
+    ],
+    "subtitle": "subtitles.entity.shulker_bullet.hurt",
+    "replace": true
+  },
+  "block.glass.place": {
+    "sounds": [
+      "step/stone1",
+      "step/stone2",
+      "step/stone3",
+      "step/stone4",
+      "step/stone5"
+    ],
+    "subtitle": "subtitles.block.generic.place",
+    "replace": true
+  },
+  "music.end": {
+    "sounds": [
+      {
+        "name": "music/game/end/end",
+        "stream": true
+      },
+      {
+        "name": "music/game/ancestry",
+        "stream": true
+      },
+      {
+        "name": "fokastudio:music/ki",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "fokastudio:music/intro",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "fokastudio:music/excuse",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "fokastudio:music/eleven",
+        "stream": true,
+        "volume": 0.4
+      }
+    ],
+    "replace": true
+  }
+}

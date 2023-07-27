@@ -78,45 +78,16 @@
         { "predicate": { "custom_model_data": 6 }, "model": "item/ammo/556x45" },
         { "predicate": { "custom_model_data": 7 }, "model": "item/ammo/ammo_rocket" },
 
-        { "predicate": { "custom_model_data": 8 }, "model": "item/utility/c21h23no5" },
-        { "predicate": { "custom_model_data": 9 }, "model": "item/utility/energydrink" },
-        { "predicate": { "custom_model_data": 10}, "model": "item/utility/stim"},
-        { "predicate": { "custom_model_data": 11}, "model": "item/craft/sulfur" },
-        { "predicate": { "custom_model_data": 12}, "model": "item/utility/airstrike" },
-        { "predicate": { "custom_model_data": 13}, "model": "item/utility/cluster" },
-        { "predicate": { "custom_model_data": 14}, "model": "item/utility/flashbang" },
-        { "predicate": { "custom_model_data": 15}, "model": "item/utility/frag" },
-        { "predicate": { "custom_model_data": 16}, "model": "item/utility/semtex" },
-
-        { "predicate": { "custom_model_data": 17}, "model": "item/craft/mag/magpul_m3" },
-        { "predicate": { "custom_model_data": 18}, "model": "item/craft/mag/magpul_ac" },
-        { "predicate": { "custom_model_data": 19}, "model": "item/craft/mag/drummag" },
-        { "predicate": { "custom_model_data": 20}, "model": "item/craft/mag/cylinder" },
-        { "predicate": { "custom_model_data": 21}, "model": "item/craft/mag/lwrci" },
-        { "predicate": { "custom_model_data": 22}, "model": "item/craft/mag/fostech" },
-
-        { "predicate": { "custom_model_data": 23}, "model": "item/craft/barrel/556_barrel" },
-        { "predicate": { "custom_model_data": 24}, "model": "item/craft/barrel/std_ak_barrel" },
-        { "predicate": { "custom_model_data": 25}, "model": "item/craft/barrel/handgun_barrel" },
-        { "predicate": { "custom_model_data": 26}, "model": "item/craft/barrel/lmg_barrel" },
-        { "predicate": { "custom_model_data": 27}, "model": "item/craft/barrel/kar98k_barrel" },
-        { "predicate": { "custom_model_data": 28}, "model": "item/craft/barrel/fnfal_barrel" },
-        { "predicate": { "custom_model_data": 29}, "model": "item/craft/barrel/ax50_barrel" },
-        { "predicate": { "custom_model_data": 30}, "model": "item/craft/barrel/shotgun_barrel" },
-        { "predicate": { "custom_model_data": 31}, "model": "item/craft/barrel/rpg_barrel" },
-
-        { "predicate": { "custom_model_data": 32}, "model": "item/craft/stock/xm177" },
-        { "predicate": { "custom_model_data": 33}, "model": "item/craft/stock/fortis" },
-        { "predicate": { "custom_model_data": 34}, "model": "item/craft/stock/prs" },
-        { "predicate": { "custom_model_data": 35}, "model": "item/craft/stock/ak_stock" },
-        { "predicate": { "custom_model_data": 36}, "model": "item/craft/stock/bullpup" },
-        { "predicate": { "custom_model_data": 37}, "model": "item/craft/stock/breech" },
-        { "predicate": { "custom_model_data": 38}, "model": "item/craft/stock/kar98k_stock" },
-
-        { "predicate": { "custom_model_data": 39}, "model": "item/craft/grips/back" },
-        { "predicate": { "custom_model_data": 40}, "model": "item/craft/grips/front" },
-
-        { "predicate": { "custom_model_data": 41}, "model": "item/craft/wrench" },
-        { "predicate": { "custom_model_data": 42}, "model": "item/wooden_board" }
+        { "predicate": { "custom_model_data": 8 }, "model": "item/wm_items/c21h23no5" },
+        { "predicate": { "custom_model_data": 9 }, "model": "item/wm_items/energydrink" },
+        { "predicate": { "custom_model_data": 10}, "model": "item/wm_items/stim"},
+        { "predicate": { "custom_model_data": 11}, "model": "item/wm_items/sulfur" },
+        { "predicate": { "custom_model_data": 12}, "model": "item/wm_items/airstrike" },
+        { "predicate": { "custom_model_data": 13}, "model": "item/wm_items/cluster" },
+        { "predicate": { "custom_model_data": 14}, "model": "item/wm_items/flashbang" },
+        { "predicate": { "custom_model_data": 15}, "model": "item/wm_items/frag" },
+        { "predicate": { "custom_model_data": 16}, "model": "item/wm_items/semtex" },
+        { "predicate": { "custom_model_data": 17}, "model": "item/wm_items/wrench" },
+        { "predicate": { "custom_model_data": 18}, "model": "item/wm_items/wooden_board" }
     ]
 }

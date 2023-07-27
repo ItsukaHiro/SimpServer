@@ -2,28 +2,23 @@
     "sources": [
         {
             "type": "directory",
-            "source": "blocks",
-            "prefix": "blocks/"
-        },
-        {
-            "type": "directory",
             "source": "ammo",
             "prefix": "ammo/"
         },
         {
             "type": "directory",
-            "source": "rosstail",
-            "prefix": "rosstail/"
+            "source": "block",
+            "prefix": "block/"
         },
         {
             "type": "directory",
-            "source": "custom",
-            "prefix": "custom/"
+            "source": "blocks",
+            "prefix": "blocks/"
         },
         {
             "type": "directory",
-            "source": "utility",
-            "prefix": "utility/"
+            "source": "gui",
+            "prefix": "gui/"
         },
         {
             "type": "directory",
@@ -32,28 +27,13 @@
         },
         {
             "type": "directory",
-            "source": "craft",
-            "prefix": "craft/"
+            "source": "misc",
+            "prefix": "misc/"
         },
         {
             "type": "directory",
-            "source": "custom_sword",
-            "prefix": "custom_sword/"
-        },
-        {
-            "type": "directory",
-            "source": "custom_axe",
-            "prefix": "custom_axe/"
-        },
-        {
-            "type": "directory",
-            "source": "holo_item",
-            "prefix": "holo_item/"
-        },
-        {
-            "type": "directory",
-            "source": "incendium",
-            "prefix": "incendium/"
+            "source": "rosstail",
+            "prefix": "rosstail/"
         }
     ]
 }

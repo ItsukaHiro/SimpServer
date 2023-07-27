@@ -50,7 +50,7 @@ void main() {
     vec2 size = textureSize(Sampler0, 0);
     int n = int(2*size.y/size.x);
     //if theres more than 1 custom armor
-    if (n > 1) {
+    if (n > 1 && size.x < 256) {
         //divide uv by number of armors, it is now on the first armor
         uv.y /= n;
         //if color index is within number of armors

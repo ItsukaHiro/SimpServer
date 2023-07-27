@@ -1,0 +1,23 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                " ": 4,
+                "\u200c": 0
+            }
+        },
+        {
+            "type": "legacy_unicode",
+            "sizes": "minecraft:font/glyph_sizes.bin",
+            "template": "minecraft:font/unicode_page_%s.png"
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/white.png",
+            "ascent": 128,
+            "height": 256,
+            "chars": ["\uE000"]
+        }
+    ]
+}

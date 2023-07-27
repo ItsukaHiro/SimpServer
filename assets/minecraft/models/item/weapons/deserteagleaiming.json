@@ -1,6 +1,7 @@
 {
-    "parent": "item/weapons/deserteagle",
-    "display": {
+	"credit": "Made with Blockbench",
+	"parent": "item/weapons/deserteagle",
+	"display": {
 		"firstperson_righthand": {
 			"rotation": [0, -90, 0],
 			"translation": [-8.96, 4.9, -32],
@@ -10,6 +11,6 @@
 			"rotation": [0, 90, 0],
 			"translation": [-8.96, 4.9, -32],
 			"scale": [2, 3, 3]
-        }
-    }
+		}
+	}
 }

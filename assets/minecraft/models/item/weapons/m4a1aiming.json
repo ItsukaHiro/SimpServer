@@ -1,15 +1,16 @@
 {
-    "parent": "item/weapons/m4a1",
-    "display": {
+	"credit": "Made with Blockbench",
+	"parent": "item/weapons/m4a1",
+	"display": {
 		"firstperson_righthand": {
-			"rotation": [0, -90, 0],
-			"translation": [-9, 4.2, -8.5],
+			"rotation": [-0.2, -90, 0],
+			"translation": [-8.96, 4.3, -6.75],
 			"scale": [2, 3, 3]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 90, 0],
 			"translation": [-9, 4.2, -8.5],
 			"scale": [2, 3, 3]
-        }
-    }
+		}
+	}
 }
