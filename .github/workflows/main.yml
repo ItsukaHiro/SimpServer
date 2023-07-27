@@ -28,7 +28,11 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: 7z\7za.exe a -mx9 -tzip -aoa file.zip assets\* credit.txt pack.mcmeta pack.png README.md
+      - name: Upload RSP
+        run: mkdir -p path/to/artifact
+      - run: echo hello > path/to/artifact/world.txt
       - uses: actions/upload-artifact@v3
         with:
           name: my-artifact
           path: bin/*
+          
