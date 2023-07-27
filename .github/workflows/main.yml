@@ -30,15 +30,15 @@ jobs:
         run: 7z\7za.exe a -mx9 -tzip -aoa RSP.zip assets\* credit.txt pack.mcmeta pack.png README.md
       
       - name: Create Release
-        id: create_release
         uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        id: create_release
         with:
-          tag_name: ${{ steps.date.outputs.date }}
-          release_name: Release ${{ steps.date.outputs.date }}
           draft: false
           prerelease: true
+          release_name: Build-${{ steps.date.outputs.date }}
+          tag_name: nightly-tag-${{ steps.date.outputs.date }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
           
       - name: Uploade Resource Pack
         uses: actions/upload-release-asset@v1
