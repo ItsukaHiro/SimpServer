@@ -32,7 +32,7 @@ jobs:
         
       - name: Get tag name from ref
         shell: bash
-        run: echo ${{ github.event.repository.pushed_at}} | sed 's/:/./g' >> $GITHUB_OUTPUT
+        run: echo "tag::${{ github.event.repository.pushed_at}}" >> $GITHUB_OUTPUT
         id: get_tag
         
       - name: Create tag in public repository
