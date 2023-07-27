@@ -26,13 +26,14 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: 7z\7za.exe a -mx9 -tzip -aoa file.zip assets\* credit.txt pack.mcmeta pack.png README.md
-      - name: Upload RSP
-        run: mkdir -p path/to/artifact
-      - run: echo hello > path/to/artifact/world.txt
-      - uses: actions/upload-artifact@v3
+      - name: Build RSP
+        run: 7z\7za.exe a -mx9 -tzip -aoa RSP.zip assets\* credit.txt pack.mcmeta pack.png README.md
+      - name: Release
+        uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          name: my-artifact
-          path: bin/*
-          
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Development Build"
+          files: |
+            RSP.zip
